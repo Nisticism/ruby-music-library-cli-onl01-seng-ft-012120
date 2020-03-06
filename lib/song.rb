@@ -11,6 +11,7 @@ class Song
   end
   
   def initialize(name)
+    @name = name
 
   def self.create
     song = Song.new
